@@ -40,7 +40,7 @@
 #include <freertos/FreeRTOS.h>
 #include <freertos/task.h>
 
-#define I2C_FREQ_HZ 400000 //!< 400kHz bus speed
+#define I2C_FREQ_HZ 100000 //!< 400kHz bus speed
 
 #define TPS63101X_CONTROL_1_REG_ADDR 0x02 //!< Address of Control 1 register
 #define TPS63101X_VOUT_REG_ADDR 0x03 //!< Address of VOUT register
